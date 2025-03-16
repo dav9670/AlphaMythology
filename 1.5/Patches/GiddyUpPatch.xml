@@ -7,7 +7,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "MM_Griffin"]</xpath>
+					<xpath>/Defs/PawnKindDef[defName = "MM_Griffin"]</xpath>
 					<value>
 						<li Class="GiddyUp.CustomStats">
 							<!--Speed
@@ -63,7 +63,7 @@
 				</li>
 
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "MM_Pegasus"]</xpath>
+					<xpath>/Defs/PawnKindDef[defName = "MM_Pegasus"]</xpath>
 					<value>
 						<li Class="GiddyUp.CustomStats">
 							<!--Speed factor.  -->
@@ -132,7 +132,7 @@
 				</li>
 
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "MM_Unicorn"]</xpath>
+					<xpath>/Defs/PawnKindDef[defName = "MM_Unicorn"]</xpath>
 					<value>
 						<li Class="GiddyUp.CustomStats">
 							<!--Speed factor.  -->
